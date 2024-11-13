@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  height: 100vh;
+  background-image: url("password.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* flex-direction: column; */
+}
+.main {
+  flex-direction: column;
+  border: solid 2px gray;
+  border-radius: 12px;
+  height: 300px;
+  width: 350px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  backdrop-filter: blur(2px);
+}
+#in {
+  text-align: center;
+  border-radius: 12px;
+  /* background: transparent; */
+  font-size: 20px;
+  color: rgb(16, 2, 2);
+}
+#in::placeholder {
+  font-family: cursive;
+  color: blueviolet;
+  background: transparent;
+}
+.showpass {
+  flex-direction: column;
+  border: solid 2px;
+  border-radius: 12px;
+  height: 30px;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 20px;
+  padding: 2%;
+  color: rgb(17, 11, 11);
+  background-color: aliceblue;
+  /* backdrop-filter: blur(100px); */
+}
+#btn {
+  border-radius: 12px;
+  border-style: double;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  font-family: cursive;
+}
+.main,
+h1 {
+  color: rgb(10, 6, 6);
+  text-shadow: violet;
+  text-shadow: 12cm;
+}
+
+#pass {
+  color: orange;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+  /* background-color: aliceblue; */
+}
