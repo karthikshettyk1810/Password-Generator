@@ -35,7 +35,12 @@ btn.addEventListener(
     let div = document.getElementById("pass");
     let a = new password();
     let gen = Number(document.getElementById("in").value);
-    if (gen == "") {
+    if(gen>30)
+    {
+      div.style.color = "red";
+      div.innerHTML = "Length Exceeded"; 
+    }
+    else if (gen == "") {
       div.style.color = "red";
       div.innerHTML = "Please Enter the length";
     } else {
