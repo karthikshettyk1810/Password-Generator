@@ -21,6 +21,7 @@ btn.addEventListener(
           this.pass += num[Math.floor(Math.random(num) * num.length)];
           this.pass = this.pass.substr(0, len);
         }
+        // Below commented lines are only used for debugging using console
         // console.log(small[rdSmall]);
         // console.log(bg[rdBig]);
         // console.log(sp[rdSpecial]);
